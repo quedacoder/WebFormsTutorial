@@ -14,5 +14,13 @@ namespace TestingDropdowns {
 	public partial class Default {
 		
 		protected System.Web.UI.HtmlControls.HtmlForm rsvpform;
+		
+		protected System.Web.UI.HtmlControls.HtmlInputText Name;
+		
+		protected System.Web.UI.HtmlControls.HtmlInputText Email;
+		
+		protected System.Web.UI.HtmlControls.HtmlInputText Phone;
+		
+		protected System.Web.UI.HtmlControls.HtmlSelect WillAttend;
 	}
 }

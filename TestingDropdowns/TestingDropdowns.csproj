@@ -34,7 +34,11 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
-    <Content Include="Default.aspx" />
+    <Content Include="Default.aspx">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Content>
+    <Content Include="seeyouthere.html" />
+    <Content Include="sorryyoucantcome.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">

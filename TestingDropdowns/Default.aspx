@@ -12,27 +12,27 @@
             <p>We're going to have an exciting party. And you're invited!</p>
         </div>
         <div class="form-group row">
-            <label for="name" class="col-sm-2 col-form-label">Your Name:</label> 
+            <label for="Name" class="col-sm-2 col-form-label">Your Name:</label> 
             <div class="col-sm-10">
-                <input type="text" class="form-control" id="name" />
+                <input type="text" class="form-control" ID="Name" runat="server"/>
             </div>
         </div>
         <div class="form-group row">
-            <label for="email" class="col-sm-2 col-form-label">Your Email:</label> 
+            <label for="Email" class="col-sm-2 col-form-label">Your Email:</label> 
             <div class="col-sm-10">
-                <input type="email" class="form-control" id="email" />
+                <input type="text" class="form-control" ID="Email" runat="server"/>
             </div>
         </div>
         <div class="form-group row">
-            <label for="phone" class="col-sm-2 col-form-label">Your Phone:</label> 
+            <label for="Phone" class="col-sm-2 col-form-label">Your Phone:</label> 
             <div class="col-sm-10">
-                <input type="text" class="form-control" id="phone" />
+                <input type="text" class="form-control" ID="Phone" runat="server"/>
             </div>
         </div>
         <div class="form-group row">
-            <label for="willAttend" class="col-sm-2 col-form-label">Will you attend?:</label> 
+            <label for="WillAttend" class="col-sm-2 col-form-label">Will you attend?:</label> 
             <div class="col-sm-10">
-                <select id="willAttend" class="form-control">
+                <select ID="WillAttend" class="form-control" runat="server">
                     <option value="">Choose an Option</option>
                     <option value="true">Yes</option>
                     <option value="false">No</option>
